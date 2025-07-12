@@ -1,6 +1,6 @@
 import sqlite3
 
-class DatabaseExecution:
+class ExecuteQuery:
     def __init__(self, db, query, param):
         self.db = db
         self.query = query
@@ -17,5 +17,5 @@ class DatabaseExecution:
         self.conn.close()
     
 
-with DatabaseExecution("users.db","SELECT * FROM users WHERE age > ?", 25) as result: 
+with ExecuteQuery("users.db","SELECT * FROM users WHERE age > ?", 25) as result: 
     print(result)
