@@ -32,3 +32,10 @@ except BrokenPipeError:
 {'user_id': '01187f09-72be-4924-8a2d-150645dcadad', 'name': 'Jonathon Jones', 'email': 'Jody.Quigley-Ziemann33@yahoo.com', 'age': 116}
 
 (venv) faithokoth@Faiths-MacBook-Pro python-generators-0x00 % 
+
+"FROM user_data", "SELECT"
+
+">"
+
+yield 
+"return"
