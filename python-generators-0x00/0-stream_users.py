@@ -1,1 +1,2 @@
-stream_users()
+def stream_users():
+    pass
